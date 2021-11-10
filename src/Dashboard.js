@@ -45,8 +45,6 @@ export default function Dashboard({ code }) {
       });
     }
   }, [playlist]);
-  console.log(playlist);
-  // console.log(trackPlaylist);
   return (
     <div className="px-5 sm:px-10">
       <p className="text-center text-4xl py-5 sm:py-10">Profile</p>
